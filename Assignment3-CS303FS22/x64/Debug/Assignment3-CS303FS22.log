@@ -1,0 +1,15 @@
+﻿  Assignment3-CS303FS22.cpp
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303.h(7,7): error C2955: 'std::queue': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(24): message : see declaration of 'std::queue'
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303.h(7,7): error C2628: 'std::queue' followed by 'int' is illegal (did you forget a ';'?)
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303.h(7,11): error C2133: 'q': unknown size
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303.h(7,11): error C2512: 'std::queue': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(24,1): message : see declaration of 'std::queue'
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303.h(10,8): error C2955: 'std::queue': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(24): message : see declaration of 'std::queue'
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303.h(10,8): error C2039: 'move_to_rear': is not a member of 'std::queue<_Ty,_Container>'
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303.h(10,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303FS22.cpp(7,12): error C2371: 'q': redefinition; different basic types
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303.h(7): message : see declaration of 'q'
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303FS22.cpp(8,17): error C2440: 'initializing': cannot convert from 'std::queue' to 'std::queue<int,std::deque<int,std::allocator<int>>>'
+C:\Users\TimT\Documents\VA\disability\VRE\UMKC\CS303\FS22\Assignment3-CS303FS22\Assignment3-CS303FS22.cpp(8,14): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
